@@ -14,8 +14,16 @@ const newNumbers = numbers.filter(function (number) {
     return number < 10;
 });
 
+var newNumbers = [];
+
+numbers.forEach(function (num) {
+    if (num < 10) {
+        newNumbers.push(num);
+    }
+})
 
 //Reduce - Accumulate a value by doing something to each item in an array.
+
 
 
 //Find - find the first item that matches from an array.
