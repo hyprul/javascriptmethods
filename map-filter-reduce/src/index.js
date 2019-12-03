@@ -43,7 +43,8 @@
 import emojipedia from './emojipedia';
 
 const meanings = emojipedia.map(function (emoji) {
-    return emoji.meaning.substr(0, 99);
+    return emoji.meaning.substr(0, 100);
 })
 
 console.log(meanings);
+
