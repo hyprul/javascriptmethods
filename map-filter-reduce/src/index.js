@@ -24,9 +24,12 @@ numbers.forEach(function (num) {
 
 //Reduce - Accumulate a value by doing something to each item in an array.
 
-
+var newNumber = numbers.reduce(function (acculumator, currentNumber) {
+    return acculumator + currentNumber;
+})
 
 //Find - find the first item that matches from an array.
+
 
 //FindIndex - find the index of the first item that matches.
 
