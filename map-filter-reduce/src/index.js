@@ -30,6 +30,12 @@ var newNumber = numbers.reduce(function (acculumator, currentNumber) {
 
 //Find - find the first item that matches from an array.
 
+const newNumber = numbers.find(function (num) {
+    return num > 10;
+})
 
 //FindIndex - find the index of the first item that matches.
 
+const index = numbers.findIndex(function (num) {
+    return num > 10;
+})
